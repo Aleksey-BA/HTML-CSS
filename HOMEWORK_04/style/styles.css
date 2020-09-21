@@ -1,0 +1,67 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::befor,
+*::after {
+	box-sizing: inherit;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #555252;
+  margin: 0;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.page-nav {
+  padding: 36px 0;
+}
+
+/*logo*/
+.logo-link {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #555252;
+}
+
+.logo-link b {
+  font-weight: 900;
+  color: #1abc9c
+}
+
+/*nav-list*/
+.nav-list {
+  font-family: "Open Sans";
+  float: right;
+  font-size: 14px;
+  list-style: none;
+  margin: 6px 0 0 0 ;
+  padding: 0;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav-link {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: #0f0101;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #1abc9c
+}
