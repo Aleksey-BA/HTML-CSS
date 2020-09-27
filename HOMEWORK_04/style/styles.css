@@ -213,7 +213,7 @@ h3::after {
   position: absolute;
   content: "";
   width: 136px;
-  height: 2px;
+  height: 3px;
   bottom: -10px;
   left: 0;
   background: #1abc9c
