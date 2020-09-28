@@ -109,6 +109,7 @@ img {
   list-style: none;;
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 
 .products-list-item {
@@ -155,11 +156,11 @@ img {
   background: #8c8c8c ;
 }
 
-.product-name:hover {
+.products-list-item:hover .product-name {
   background: #1abc9c;
 }
 
-.product-price:hover {
+.products-list-item:hover .product-price {
   background: #7fd9c7;
 }
 
@@ -167,7 +168,6 @@ img {
 
 /* BLOG */
 .blog-news {
-  /* display: inline-block; */
   position: relative;
   font-size: 48px;
   line-height: 56px;
