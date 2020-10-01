@@ -89,7 +89,6 @@ img {
   background-image: url(../img/slider.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 94px;
 }
 
 .slider::before {
@@ -157,7 +156,9 @@ img {
 
 /* *** */
 .products {
-  margin-bottom: 100px;
+  padding-top: 94px;
+  padding-bottom: 100px;
+  background-color: #e9f0fd;
 }
 
 .products-heading {
@@ -239,4 +240,21 @@ img {
 
 .products-list-item:hover .product-price {
   background: #7fd9c7;
+}
+
+/* FOOTER */
+
+.footer-content {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 30px 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  background-color: #323232;
+}
+
+a {
+  text-decoration: none;
+  color: #1abc9c;
 }
