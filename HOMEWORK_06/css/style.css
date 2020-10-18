@@ -233,7 +233,6 @@ img {
 	left: 0;
 	opacity: 0;
 	background-image: linear-gradient(#f38181, #fce380);
-	border: 2px solid #3b35d9;
 	transition: opacity 0.2s linear;
 	z-index: 1;
 } 
@@ -358,3 +357,42 @@ img {
     border-top: 1px solid #ccc;
 }
 
+.info {
+	font-size: 14px;
+	color: #333333;
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
+}
+
+.info span {
+	color: #f38181;
+}
+
+.footer-form {
+	display: flex;
+}
+
+.footer-email {
+	height: 38px;
+    width: 228px;
+    border: 1px solid #d9d9d9;
+    font-family: Roboto, sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+    padding-left: 12px;
+    border-right: 0;
+}
+
+.footer-submit {
+	font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    height: 38px;
+    width: 150px;
+    border: none;
+    background-color: #95e1d3;
+    transition: background-color 200ms linear;
+}
