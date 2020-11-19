@@ -1,0 +1,36 @@
+@font-face {
+	font-family: "Montserrat-Bold";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../fonts/Montserrat-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Montserrat-Regular";
+	font-style: normal;
+	font-weight: 200;
+	src: url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Wisdom-Script";
+	font-style: normal;
+	font-weight: 200;
+	src: url("../fonts/WisdomScriptAJ.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Robotoslab-Regular";
+	font-style: normal;
+	font-weight: 200; 
+	src: url("../fonts/robotoslabregular.woff") format("woff");
+	src: url("../fonts/robotoslabregular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Droid-Serif";
+	font-style: normal;
+	font-weight: 200; 
+	src: url("../fonts/droidserifitalic.woff") format("woff");
+	src: url("../fonts/droidserifitalic.woff2") format("woff2");
+}
