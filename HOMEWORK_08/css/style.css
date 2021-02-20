@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.section{
+	width: 320px;
+  	/* padding: 0 15px; */
+  	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 30px;
+	align-items: center;
+}
+
+.logo {
+	font-family: Montserrat-Bold;
+	color: #fff;
+	margin-top: 150px;
+	font-size: 20px;
+}
+
+.log-in-container {
+	display: flex;
+}
+
+.log-in-container>a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Montserrat-Bold;
+	font-size: 14px;
+
+}
+
+.log-in,
+.sign-up {
+	width: 90px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	border: 2px solid transparent;
+	border-radius: 20px; 
+}
+
+.log-in:hover,
+.sign-up:hover{
+    border-color: #fff;  
+}
+
+.section-main {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section-main::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+.section-main::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(48, 11%, 9%, 0.1);
+    z-index: -1;
+}
+
+.text-main{
+    color:#fff;
+    /* flex-wrap: nowrap; */
+    text-align: center;
+}
+
+.title {
+	font-family: Montserrat-Bold;
+	width: 300px;
+	margin-top: -180px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.title-under{
+    font-family: Roboto-Light;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.title-button {
+	font-family: Montserrat-Bold;
+	font-size: 14px;
+	width: 280px;
+	height: 40px;
+	margin-top: 18px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	background: #ff4e50;
+	color: #fff;
+}
