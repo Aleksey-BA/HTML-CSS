@@ -61,7 +61,8 @@
     height: 700px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-bottom: 54px;
 }
 .section-main::after{
     position: absolute;
@@ -117,4 +118,47 @@
 	cursor: pointer;
 	background: #ff4e50;
 	color: #fff;
+}
+
+.partners-title {
+	/* width: 270px; */
+	font-size: 22px;
+	color: #333333;
+	font-weight: 700;
+	font-family: "Montserrat";
+	text-align: center;
+
+}
+
+.partner-title,.partners-button{
+    font-family: Montserrat-Bold;
+    font-size: 14pt;
+}
+
+.partners-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.partner-img{
+	margin-bottom: 20px;
+}
+
+.partner-title{
+	margin-top: 20px;
+	/* font-size: 14px;
+	color: #333333;
+	font-weight: 700;
+	font-family: "Montserrat";
+	text-align: center; */
+}
+
+.partner-text{
+    text-align: center;
+    margin-top: 15px;
+    font-family: Roboto-Light;
+    font-size: 14pt;
+    color: #666;
 }
