@@ -8,7 +8,6 @@
 
 .section{
 	width: 320px;
-  	/* padding: 0 15px; */
   	margin: 0 auto;
 }
 
@@ -35,8 +34,7 @@
 	text-decoration: none;
 	color: #fff;
 	font-family: Montserrat-Bold;
-	font-size: 14px;
-
+	font-size: 14pt;
 }
 
 .log-in,
@@ -64,6 +62,7 @@
 	flex-wrap: wrap;
 	margin-bottom: 54px;
 }
+
 .section-main::after{
     position: absolute;
     content: "";
@@ -76,6 +75,7 @@
     background-size: cover;
     z-index: -2;
 }
+
 .section-main::before{
     position: absolute;
     content: "";
@@ -89,7 +89,7 @@
 
 .text-main{
     color:#fff;
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
     text-align: center;
 }
 
@@ -120,18 +120,32 @@
 	color: #fff;
 }
 
+/* .title-button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+/* SECTION-PARTNERS */
+.section-partners,
 .partners-title {
-	/* width: 270px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-title {
 	font-size: 22px;
 	color: #333333;
 	font-weight: 700;
-	font-family: "Montserrat";
+	font-family: "Montserrat-Bold";
 	text-align: center;
-
 }
 
-.partner-title,.partners-button{
-    font-family: Montserrat-Bold;
+.partner-title,
+.partners-button {
+	font-family: Montserrat-Bold;
     font-size: 14pt;
 }
 
@@ -142,17 +156,16 @@
     margin-top: 20px;
 }
 
-.partner-img{
-	margin-bottom: 20px;
+.partner{
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
 }
 
 .partner-title{
 	margin-top: 20px;
-	/* font-size: 14px;
-	color: #333333;
-	font-weight: 700;
-	font-family: "Montserrat";
-	text-align: center; */
 }
 
 .partner-text{
@@ -162,3 +175,29 @@
     font-size: 14pt;
     color: #666;
 }
+
+.partner-img{
+	margin-bottom: 20px;
+}
+
+.partners-button{
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff4e50;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+.partners-button:hover{
+    background-color: hsla(359, 100%, 88%, 0.827);
+    cursor: pointer;
+}
+.partners-button-container>a{
+    text-decoration: none;
+}
+
