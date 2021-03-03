@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-    /* .nav {
+    .nav {
         max-width: 660px;
     }
 
@@ -42,10 +42,10 @@
         margin-bottom: 36px;
     }
 
-} */
+} 
 
 @media (min-width: 992px) {
-    /* .nav {
+    .nav {
         max-width: 940px;
     }
 
@@ -76,4 +76,4 @@
         margin-bottom: 36px;
     }
 
-} */
+}
